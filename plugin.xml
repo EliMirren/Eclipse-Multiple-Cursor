@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Multiple Cursor Category"
+            id="com.szmirren.eclipse.multiple-cursor.commands.category">
+      </category>
+      <command
+            name="Multiple Cursor"
+            categoryId="com.szmirren.eclipse.multiple-cursor.commands.category"
+            id="com.szmirren.eclipse.multiple-cursor.commands.multipleCursorCommand">
+      </command>
+      <command
+            categoryId="com.szmirren.eclipse.multiple-cursor.commands.category"
+            id="com.szmirren.eclipse.multiple-cursor.commands.selectAllCommand"
+            name="Multiple Cursor Select All">
+      </command>
+      <command
+            categoryId="com.szmirren.eclipse.multiple-cursor.commands.category"
+            id="ccom.szmirren.eclipse.multiple-cursor.commands.selectNextCommandand"
+            name="Multiple Cursor Select Next">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="com.szmirren.eclipse.multiple-cursor.commands.multipleCursorCommand"
+            class="com.szmirren.eclipse.multiplecursor.handlers.MultipleCursorHandler">
+      </handler>
+      <handler
+            class="com.szmirren.eclipse.multiplecursor.handlers.SelectAllOccurrencesHandler"
+            commandId="com.szmirren.eclipse.multiple-cursor.commands.selectAllCommand">
+      </handler>
+      <handler
+            class="com.szmirren.eclipse.multiplecursor.handlers.SelectNextOccurrenceHandler"
+            commandId="ccom.szmirren.eclipse.multiple-cursor.commands.selectNextCommandand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.szmirren.eclipse.multiple-cursor.commands.multipleCursorCommand"
+            contextId="org.eclipse.ui.textEditorScope"
+            sequence="M1+M3+V"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      <key
+            commandId="com.szmirren.eclipse.multiple-cursor.commands.selectAllCommand"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+F">
+      </key>
+      <key
+            commandId="ccom.szmirren.eclipse.multiple-cursor.commands.selectNextCommandand"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+D">
+      </key>
+   </extension>
+
+</plugin>

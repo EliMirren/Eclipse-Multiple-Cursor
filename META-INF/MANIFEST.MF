@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse-Multiple-Cursor
+Bundle-SymbolicName: com.szmirren.eclipse.multiple-cursor;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.szmirren.eclipse.multiplecursor.Activator
+Bundle-Vendor: shenzhenMirren
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.jface.text,
+ org.eclipse.jface.text.link,
+ org.eclipse.jface.text.source,
+ org.eclipse.ui.texteditor,
+ org.eclipse.ui.texteditor.link
