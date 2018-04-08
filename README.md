@@ -10,6 +10,6 @@ Eclipse编辑器多点输入插件,支持选中同名字符,选中位置同时�
 自定义选择位置(既多个位置) : Ctrl+Alt+V (光标选中将要插入的位置按该快捷键标记)<br>
 ## 修改快捷键说明
 Window - Preferences - General - Keys <br>
-Multiple Cursor Select All 对应 选择所有相同的词(所有)
+Multiple Cursor Select All 对应 选择所有相同的词
 Multiple Cursor Select Next 对应 选择相同的词
-Multiple Cursor 自定义选择位置
+Multiple Cursor 自定义选择位置 
