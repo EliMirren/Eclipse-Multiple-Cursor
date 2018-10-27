@@ -5,7 +5,7 @@ Eclipse编辑器多点输入插件,支持选中同名字符,选中位置同时�
 ![gif](https://raw.githubusercontent.com/shenzhenMirren/MyGithubResources/master/image/Eclipse-Multiple-Cursor.gif)
 # 使用教程
 ## 插件使用
-将com.szmirren.eclipse.multiple-cursor_1.0.0.jar架包放到Eclipse的plugins文件夹中<br>
+将com.szmirren.eclipse.multiple-cursor_x.x.x.jar架包放到Eclipse的plugins文件夹中<br>
 ## 快捷键说明
 选择所有相同的词(所有) : Ctrl+Alt+F (光标先选中词按该快捷键选中所有,输入更改,不支持两个词相连既ssss搜索ss)<br>
 选择相同的词(下一个,下一个) : Ctrl+Alt+D (光标先选中词按该快捷键选中下一个相同的词,输入更改,不支持两个词相连既ssss搜索ss)<br>
