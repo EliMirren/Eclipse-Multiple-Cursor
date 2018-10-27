@@ -23,6 +23,11 @@
             id="ccom.szmirren.eclipse.multiple-cursor.commands.selectNextCommandand"
             name="Multiple Cursor Select Next">
       </command>
+      <command
+            categoryId="com.szmirren.eclipse.multiple-cursor.commands.category"
+            id="ccom.szmirren.eclipse.multiple-cursor.commands.selectRemainingCommandand"
+            name="Multiple Cursor Select Remaining">
+      </command>
    </extension>
    <extension
          point="org.eclipse.ui.handlers">
@@ -37,6 +42,10 @@
       <handler
             class="com.szmirren.eclipse.multiplecursor.handlers.SelectNextOccurrenceHandler"
             commandId="ccom.szmirren.eclipse.multiple-cursor.commands.selectNextCommandand">
+      </handler>
+      <handler
+            class="com.szmirren.eclipse.multiplecursor.handlers.SelectRemainingOccurrencesHandler"
+            commandId="ccom.szmirren.eclipse.multiple-cursor.commands.selectRemainingCommandand">
       </handler>
    </extension>
    <extension
@@ -58,6 +67,12 @@
             contextId="org.eclipse.ui.textEditorScope"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="M1+M3+D">
+      </key>
+      <key
+            commandId="ccom.szmirren.eclipse.multiple-cursor.commands.selectRemainingCommandand"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+N">
       </key>
    </extension>
 
