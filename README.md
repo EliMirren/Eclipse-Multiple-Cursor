@@ -7,16 +7,22 @@ Eclipse编辑器多点输入插件,支持选中同名字符,选中位置同时�
 ## 插件使用
 将com.szmirren.eclipse.multiple-cursor_x.x.x.jar架包放到Eclipse的plugins文件夹中<br>
 ## 快捷键说明
-选择所有相同的词(所有) : Ctrl+Alt+F (光标先选中词按该快捷键选中所有,输入更改,不支持两个词相连既ssss搜索ss)<br>
-选择相同的词(下一个,下一个) : Ctrl+Alt+D (光标先选中词按该快捷键选中下一个相同的词,输入更改,不支持两个词相连既ssss搜索ss)<br>
-选择剩下所有相同的词(剩下所有) : Ctrl+Alt+N (光标先选中词按该快捷键选中文本剩下所有相同的词,输入更改,不支持两个词相连既ssss搜索ss)<br>
-自定义选择位置(既多个位置) : Ctrl+Alt+V (光标选中将要插入的位置按该快捷键标记)<br>
+* 选择所有相同的词(所有) : __Ctrl+Alt+F__ 
+   * (光标先选中词按该快捷键选中所有,输入更改,不支持两个词相连既ssss搜索ss)<br>
+* 选择相同的词(下一个,下一个) : __Ctrl+Alt+D__ 
+   * (光标先选中词按该快捷键选中下一个相同的词,输入更改,不支持两个词相连既ssss搜索ss)<br>
+* 选择剩下所有相同的词(剩下所有) : __Ctrl+Alt+N__ 
+   * (光标先选中词按该快捷键选中文本剩下所有相同的词,输入更改,不支持两个词相连既ssss搜索ss)<br>
+* 自定义选择位置(既多个位置) : __Ctrl+Alt+V__ 
+   * (光标选中将要插入的位置按该快捷键标记)<br>
 ## 修改快捷键说明
 Window - Preferences - General - Keys <br>
 Multiple Cursor Select All 对应 选择所有相同的词<br>
 Multiple Cursor Select Next 对应 选择相同的词<br>
 Multiple Cursor Select Remaining 对应 选择剩下所有相同的词<br>
 Multiple Cursor 自定义选择位置 <br>
+
+-----------
 
 # Eclipse Editor Multi-Point Input Plug-in, supports the selection of the same name character, the location of the selection and input at the same time
 
@@ -32,7 +38,7 @@ Multiple Cursor 自定义选择位置 <br>
 
 ## Modify keyboard shortcut instructions
 ### Eclipse - Window - Preferences - General - Keys
-Multiple Cursor Select All = Choose all the same words
-Multiple Cursor Select Next&nbsp; = Choose the next same word
-Multiple Cursor Select Remaining&nbsp; = Choose all the same words below
-Multiple Cursor = Custom Selection Location
+Multiple Cursor Select All = Choose all the same words<br>
+Multiple Cursor Select Next = Choose the next same word<br>
+Multiple Cursor Select Remaining& = Choose all the same words below<br>
+Multiple Cursor = Custom Selection Location<br>
