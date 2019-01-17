@@ -23,49 +23,16 @@ Multiple Cursor 自定义选择位置 <br>
 ## Shortcut Key Description
 * Choose all the same words (all) : <strong>Ctrl+Alt+F </strong>
     * The cursor first selects all the words by pressing the shortcut key, enters the changes, and does not support the ss ss search SS where the two words are connected.
+* Choose the next same word (next, next): <strong>Ctrl + Alt + D</strong>
+    * The cursor first selects the word and presses the shortcut key to select the next identical word. Enter the change. It does not support the ss ss search with two words connected.
+* Choose all the same words below (all remaining):<strong> Ctrl+Alt+N</strong>
+    * The cursor first selects the word and presses the shortcut key to select all the same words in the text. The input changes do not support the ss ss search for SS with two words connected.
+* Custom Selection Location (Multiple Locations): <strong>Ctrl+Alt+V</strong>
+    * Press the shortcut key to mark the position to be inserted in the cursor selection
 
-<ul>
-	<li>
-
-	<ul>
-		<li></li>
-	</ul>
-	</li>
-	<li>
-	<p>Choose the next same word (next, next): <strong>Ctrl + Alt + D</strong></p>
-
-	<ul>
-		<li>
-		<p>The cursor first selects the word and presses the shortcut key to select the next identical word. Enter the change. It does not support the ss ss search with two words connected.</p>
-		</li>
-	</ul>
-	</li>
-	<li>
-	<p>Choose all the same words below (all remaining):<strong> Ctrl+Alt+N</strong></p>
-
-	<ul>
-		<li>
-		<p>The cursor first selects the word and presses the shortcut key to select all the same words in the text. The input changes do not support the ss ss search for SS with two words connected.</p>
-		</li>
-	</ul>
-	</li>
-	<li>
-	<p>Custom Selection Location (Multiple Locations): <strong>Ctrl+Alt+V</strong></p>
-
-	<ul>
-		<li>
-		<p>Press the shortcut key to mark the position to be inserted in the cursor selection</p>
-		</li>
-	</ul>
-	</li>
-</ul>
-
-<h2>&nbsp;</h2>
-
-<h2>Modify keyboard shortcut instructions</h2>
-
-<p>Eclipse - Window - Preferences - General - Keys<br />
-Multiple Cursor Select All = Choose all the same words<br />
-Multiple Cursor Select Next&nbsp; = Choose the next same word<br />
-Multiple Cursor Select Remaining&nbsp; = Choose all the same words below<br />
-Multiple Cursor = Custom Selection Location</p>
+## Modify keyboard shortcut instructions
+### Eclipse - Window - Preferences - General - Keys
+Multiple Cursor Select All = Choose all the same words
+Multiple Cursor Select Next&nbsp; = Choose the next same word
+Multiple Cursor Select Remaining&nbsp; = Choose all the same words below
+Multiple Cursor = Custom Selection Location
