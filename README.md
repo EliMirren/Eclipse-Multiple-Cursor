@@ -27,13 +27,13 @@ Multiple Cursor 自定义选择位置 <br>
 # Eclipse Editor Multi-Point Input Plug-in, supports the selection of the same name character, the location of the selection and input at the same time
 
 ## Shortcut Key Description
-* Choose all the same words (all) : <strong>Ctrl+Alt+F </strong>
+* Choose all the same words (all) : __Ctrl+Alt+F__
     * The cursor first selects all the words by pressing the shortcut key, enters the changes, and does not support the ss ss search SS where the two words are connected.
-* Choose the next same word (next, next): <strong>Ctrl + Alt + D</strong>
+* Choose the next same word (next, next): __Ctrl + Alt + D__
     * The cursor first selects the word and presses the shortcut key to select the next identical word. Enter the change. It does not support the ss ss search with two words connected.
-* Choose all the same words below (all remaining):<strong> Ctrl+Alt+N</strong>
+* Choose all the same words below (all remaining): __Ctrl+Alt+N__
     * The cursor first selects the word and presses the shortcut key to select all the same words in the text. The input changes do not support the ss ss search for SS with two words connected.
-* Custom Selection Location (Multiple Locations): <strong>Ctrl+Alt+V</strong>
+* Custom Selection Location (Multiple Locations): __Ctrl+Alt+V__
     * Press the shortcut key to mark the position to be inserted in the cursor selection
 
 ## Modify keyboard shortcut instructions
